@@ -825,7 +825,7 @@ When PFX is non-nil, ignore the prompt and just install"
   (interactive "P")
   (when (or pfx (yes-or-no-p "This will download and install font, are you sure you want to do this?"))
     (let* ((font "icons-in-terminal.ttf")
-           (url-format "https://github.com/sebastiencs/icons-in-terminal/raw/master/build/%s")
+           (url-format "https://github.com/tosaka07/icons-in-terminal/raw/master/build/%s")
            (font-dest (cl-case window-system
                         (x  (concat (or (getenv "XDG_DATA_HOME")            ;; Default Linux install directories
                                         (concat (getenv "HOME") "/.local/share"))
