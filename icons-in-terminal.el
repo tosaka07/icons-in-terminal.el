@@ -203,9 +203,9 @@
     ("\\.rlib$"         icons-in-terminal-fileicon "rust"                   :height 1.2  :face icons-in-terminal-dmaroon)
     ("\\.r[ds]?x?$"     icons-in-terminal-fileicon "R"                      :face icons-in-terminal-lblue)
 
-    ("\\.sbt$"          icons-in-terminal-fileicon   "sbt"                  :face icons-in-terminal-red)
+    ("\\.sbt$"          icons-in-terminal-fileicon "sbt"                    :face icons-in-terminal-red)
     ("\\.scala$"        icons-in-terminal-fileicon "scala"                  :face icons-in-terminal-red)
-    ("\\.scm$"          icons-in-terminal-fileicon   "scheme"               :height 1.2 :face icons-in-terminal-red)
+    ("\\.scm$"          icons-in-terminal-fileicon "scheme"                 :height 1.2 :face icons-in-terminal-red)
     ("\\.swift$"        icons-in-terminal-fileicon "swift"                  :height 1.0 :v-adjust -0.1 :face icons-in-terminal-green)
 
     ("-?spec\\.ts$"     icons-in-terminal-fileicon "test-typescript"        :height 1.0 :v-adjust 0.0 :face icons-in-terminal-blue)
@@ -223,6 +223,7 @@
     ("\\.tf\\(vars\\|state\\)?$" icons-in-terminal-fileicon "terraform"     :height 1.0 :face icons-in-terminal-purple-alt)
 
     ("\\.asm$"          icons-in-terminal-faicon "microchip"                :height 1.0 :face icons-in-terminal-blue)
+    ("\\.nasm$"         icons-in-terminal-faicon "nasm"                     :height 1.0 :face icons-in-terminal-blue)
 
     ;; Verilog(-AMS) and SystemVerilog(-AMS)
     ("\\.v$"            icons-in-terminal-fileicon "verilog"               :height 1.0 :v-adjust -0.2 :face icons-in-terminal-red)
@@ -294,8 +295,8 @@
     ("\\.m$"            icons-in-terminal-fileicon "apple"                  :v-adjust 0.0 :height 1.0)
     ("\\.mm$"           icons-in-terminal-fileicon "apple"                  :v-adjust 0.0 :height 1.0)
 
-    ("\\.c\\(c\\|pp\\|xx\\)$"   icons-in-terminal-fileicon "cplusplus-line" :v-adjust -0.2 :face icons-in-terminal-blue)
-    ("\\.h\\(h\\|pp\\|xx\\)$"   icons-in-terminal-fileicon "cplusplus-line" :v-adjust -0.2 :face icons-in-terminal-purple)
+    ("\\.c\\(c\\|pp\\|xx\\)$"   icons-in-terminal-fileicon "cpp" :v-adjust -0.2 :face icons-in-terminal-blue)
+    ("\\.h\\(h\\|pp\\|xx\\)$"   icons-in-terminal-fileicon "cpp" :v-adjust -0.2 :face icons-in-terminal-purple)
 
     ("\\.csx?$"         icons-in-terminal-fileicon "csharp-line"            :face icons-in-terminal-dblue)
 
@@ -426,7 +427,7 @@
   '(
     ("trash"            icons-in-terminal-faicon "trash-o"          :height 1.2 :v-adjust -0.1)
     ("dropbox"          icons-in-terminal-faicon "dropbox"          :height 1.0 :v-adjust -0.1)
-    ("google[ _-]drive" icons-in-terminal-fileicon "google-drive"   :height 1.3 :v-adjust -0.1)
+    ("google[ _-]drive" icons-in-terminal-fileicon "google-drive"   :height 1.1 :v-adjust -0.1)
     ("^atom$"           icons-in-terminal-fileicon "atom"           :height 1.2 :v-adjust -0.1)
     ("documents"        icons-in-terminal-faicon "book"             :height 1.0 :v-adjust -0.1)
     ("download"         icons-in-terminal-faicon "cloud-download"   :height 0.9 :v-adjust -0.2)
@@ -570,7 +571,7 @@
     (scheme-mode                        icons-in-terminal-fileicon "scheme"         :height 1.2 :face icons-in-terminal-red)
     (swift-mode                         icons-in-terminal-fileicon "swift"          :height 1.0 :v-adjust -0.1 :face icons-in-terminal-green)
     (c-mode                             icons-in-terminal-fileicon "c-line"         :face icons-in-terminal-blue)
-    (c++-mode                           icons-in-terminal-fileicon "cplusplus-line" :v-adjust -0.2 :face icons-in-terminal-blue)
+    (c++-mode                           icons-in-terminal-fileicon "cpp"            :v-adjust -0.2 :face icons-in-terminal-blue)
     (csharp-mode                        icons-in-terminal-fileicon "csharp-line"    :face icons-in-terminal-dblue)
     (clojure-mode                       icons-in-terminal-fileicon "clojure-line"   :height 1.0  :face icons-in-terminal-blue)
     (cider-repl-mode                    icons-in-terminal-fileicon "clojure-line"   :height 1.0  :face icons-in-terminal-dblue)
@@ -620,7 +621,7 @@
     (dart-mode                          icons-in-terminal-fileicon "dart"             :height 1.0  :face icons-in-terminal-blue)
     ;; (fsharp-mode                        icons-in-terminal-fileicon "fsharp"           :height 1.0  :face icons-in-terminal-blue)
     (asm-mode                           icons-in-terminal-fileicon "microchip"        :height 1.0  :face icons-in-terminal-blue)
-    (nasm-mode                          icons-in-terminal-fileicon "microchip"        :height 1.0  :face icons-in-terminal-blue)
+    (nasm-mode                          icons-in-terminal-fileicon "nasm"             :height 1.0  :face icons-in-terminal-blue)
     (tcl-mode                           icons-in-terminal-fileicon "tcl"              :height 1.0  :face icons-in-terminal-dred)
     (cuda-mode                          icons-in-terminal-fileicon "nvidia"           :face icons-in-terminal-green)
     ;; (glsl-mode                          icons-in-terminal-fileicon "vertex-shader"    :face icons-in-terminal-green)
